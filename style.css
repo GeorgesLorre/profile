@@ -48,6 +48,10 @@ a:hover {
   color: #FAA916;
 }
 
+table {
+    margin: 0 auto;
+}
+
 #page-content {
   margin-left: 100px;
 }
@@ -85,22 +89,13 @@ a:hover {
 .img-rectangle{
   position: relative;
   float: left;
-  width:  200px;
+  width:  190px;
   height: 250px;
   background-position: 50% 50%;
   background-repeat:   no-repeat;
   background-size:     cover;
 }
 
-.img {
-    position: relative;
-    float: left;
-    width:  100px;
-    height: 100px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-}
 
 .btn-red {
   background-color: #274156;
@@ -162,6 +157,6 @@ a:hover {
   color: #FAA916;
 }
 
-.profile-projects table{
+.profile-projects tr{
   text-align: center;
 }
